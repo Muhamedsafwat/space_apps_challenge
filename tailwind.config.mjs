@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#1193d4",
-        background: "#101c22",
+        primary: "#d8a429",
+        background: "#f5f5f5",
       },
       fontFamily: {
         display: ["Space Grotesk"],

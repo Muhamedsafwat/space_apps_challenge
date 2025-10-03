@@ -3,10 +3,10 @@ import React from "react";
 const Gallery = () => {
   return (
     <section>
-      <h2 className="text-3xl font-bold text-slate-800 dark:text-white tracking-tight text-center mb-8">
+      <h2 className="text-3xl font-bold tracking-tight text-center mb-8">
         Gallery of Impact
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-white">
         <div className="relative group overflow-hidden rounded-xl">
           <img
             alt="Erosion on a temple wall"
@@ -15,10 +15,8 @@ const Gallery = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4">
-            <h3 className="text-white font-bold text-lg">
-              Salt Crystallization Damage
-            </h3>
-            <p className="text-slate-200 text-sm">
+            <h3 className=" font-bold text-lg">Salt Crystallization Damage</h3>
+            <p className=" text-sm">
               Porous stone is crumbling due to salt carried by rising damp.
             </p>
           </div>
@@ -31,8 +29,8 @@ const Gallery = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4">
-            <h3 className="text-white font-bold text-lg">Flooding Risks</h3>
-            <p className="text-slate-200 text-sm">
+            <h3 className=" font-bold text-lg">Flooding Risks</h3>
+            <p className=" text-sm">
               Increased flooding threatens the foundations of riverside temples.
             </p>
           </div>
@@ -45,10 +43,8 @@ const Gallery = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4">
-            <h3 className="text-white font-bold text-lg">
-              Structural Instability
-            </h3>
-            <p className="text-slate-200 text-sm">
+            <h3 className=" font-bold text-lg">Structural Instability</h3>
+            <p className=" text-sm">
               Extreme heat and ground shifts cause dangerous fractures.
             </p>
           </div>
