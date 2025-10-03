@@ -30,12 +30,8 @@ The Abu Simbel Guardian is an AI-powered monitoring system that uses NASA satell
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd abu-simbel-guardian
-   ```
-
+1. **cd chatbot **
+ 
 2. **Set up a virtual environment**
    ```bash
    python -m venv venv
