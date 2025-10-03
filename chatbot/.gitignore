@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Data and Models - ADD YOUR SPECIFIC FOLDERS/FILES
+data/processed/
+models/
+*.pth
+*.bin
+nasa_analysis_results.json
+
+# Log and output files
+*.log
+conversation_history.txt
