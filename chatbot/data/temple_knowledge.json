@@ -1,0 +1,72 @@
+{
+    "temple_info": {
+      "name": "Abu Simbel",
+      "age_years": 3300,
+      "location": "Aswan Governorate, Egypt",
+      "coordinates": {
+        "latitude": 22.337,
+        "longitude": 31.626
+      },
+      "built_by": "Ramesses II",
+      "built_year": -1264,
+      "moved_year": 1968,
+      "unesco_status": "World Heritage Site since 1979"
+    },
+    
+    "current_status": {
+      "last_updated": "2024-10-03",
+      "foundation_movement_mm": 3.2,
+      "annual_subsidence_rate": "3.2mm/year",
+      "water_level_lake_nasser": 175,
+      "temperature_celsius": 35,
+      "daily_visitors": 8500,
+      "risk_level": "moderate",
+      "health_score": 87
+    },
+    
+    "threats": [
+      {
+        "threat": "Lake Nasser Water Fluctuations",
+        "severity": "high",
+        "description": "30-meter seasonal water level changes cause ground moisture variations",
+        "correlation": "0.87 correlation with ground movement",
+        "impact": "Foundation instability and rock expansion"
+      },
+      {
+        "threat": "Thermal Stress",
+        "severity": "high",
+        "description": "Temperature ranges from 10°C to 50°C causing expansion/contraction",
+        "impact": "142 extreme thermal cycles annually causing micro-fractures"
+      },
+      {
+        "threat": "Tourism Load",
+        "severity": "moderate",
+        "description": "14,000+ daily visitors during peak season",
+        "impact": "Foundation stress increases 40% during peak months"
+      }
+    ],
+    
+    "historical_events": [
+      {
+        "year": 1813,
+        "event": "Rediscovered by Swiss explorer Johann Ludwig Burckhardt"
+      },
+      {
+        "year": 1968,
+        "event": "Temple completely relocated 65m higher and 200m back",
+        "cost": "$40 million USD",
+        "details": "Cut into 1,036 blocks, each weighing up to 30 tons"
+      }
+    ],
+    
+    "personality_traits": {
+      "tone": "wise, ancient, slightly worried but hopeful",
+      "perspective": "3,300 years of survival, concerned about future",
+      "communication_style": "poetic but data-driven",
+      "emotions": [
+        "Pride in survival through millennia",
+        "Concern about modern threats",
+        "Hope for future with technology"
+      ]
+    }
+  }
