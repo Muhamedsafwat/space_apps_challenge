@@ -7,25 +7,25 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-6">
           <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
             <a
-              className="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-colors"
+              className="text-sm font-medium  hover:text-primary dark:hover:text-primary transition-colors"
               href="#"
             >
               About Us
             </a>
             <a
-              className="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-colors"
+              className="text-sm font-medium  hover:text-primary dark:hover:text-primary transition-colors"
               href="#"
             >
               Contact
             </a>
             <a
-              className="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-colors"
+              className="text-sm font-medium  hover:text-primary dark:hover:text-primary transition-colors"
               href="#"
             >
               Privacy Policy
             </a>
             <a
-              className="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-colors"
+              className="text-sm font-medium  hover:text-primary dark:hover:text-primary transition-colors"
               href="#"
             >
               Terms of Service
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-center gap-6">
             <a
-              className="text-slate-500 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
+              className=" hover:text-primary dark:hover:text-primary transition-colors"
               href="#"
             >
               <svg
@@ -47,7 +47,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              className="text-slate-500 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
+              className=" hover:text-primary dark:hover:text-primary transition-colors"
               href="#"
             >
               <svg
@@ -61,7 +61,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              className="text-slate-500 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
+              className=" hover:text-primary dark:hover:text-primary transition-colors"
               href="#"
             >
               <svg
@@ -75,7 +75,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <p className="text-sm text-slate-500 dark:text-slate-400">
+          <p className="text-sm ">
             © 2024 Preserve Egypt. All rights reserved.
           </p>
         </div>

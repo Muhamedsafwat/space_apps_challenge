@@ -3,16 +3,16 @@ import React from "react";
 const Nisar = () => {
   return (
     <section className="text-center">
-      <h2 className="text-3xl font-bold text-slate-800 dark:text-white tracking-tight mb-4">
+      <h2 className="text-3xl font-bold  tracking-tight mb-4">
         Our Eye in the Sky: The NISAR Satellite
       </h2>
-      <p className="text-slate-300 leading-relaxed max-w-3xl mx-auto mb-12">
+      <p className=" leading-relaxed max-w-3xl mx-auto mb-12">
         The NASA-ISRO Synthetic Aperture Radar (NISAR) satellite is a
         game-changer. This advanced mission provides an unprecedented,
         all-weather, day-and-night view of Earth, allowing us to detect subtle,
         yet critical, changes to our planet's surface and our heritage sites.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-slate-800 dark:text-white">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
         <div className="flex flex-col items-center gap-4">
           <div className="bg-primary/10 p-4 rounded-full">
             <svg
@@ -30,7 +30,7 @@ const Nisar = () => {
             </svg>
           </div>
           <h3 className="font-bold text-xl">Radar Vision</h3>
-          <p className="text-slate-300">
+          <p>
             Sees through clouds and darkness, providing constant monitoring.
           </p>
         </div>
@@ -52,9 +52,7 @@ const Nisar = () => {
             </svg>
           </div>
           <h3 className="font-bold text-xl">Precision Data</h3>
-          <p className="text-slate-300">
-            Measures ground deformation with centimeter-level accuracy.
-          </p>
+          <p>Measures ground deformation with centimeter-level accuracy.</p>
         </div>
         <div className="flex flex-col items-center gap-4">
           <div className="bg-primary/10 p-4 rounded-full">
@@ -75,7 +73,7 @@ const Nisar = () => {
             </svg>
           </div>
           <h3 className="font-bold text-xl">Global Coverage</h3>
-          <p className="text-slate-300">
+          <p>
             Systematically maps Earth every 12 days for rapid change detection.
           </p>
         </div>
