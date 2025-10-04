@@ -13,13 +13,24 @@ const AiChat = () => {
   const [inputMessage, setInputMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
+  const messagesContainerRef = useRef(null);
+  const inputRef = useRef(null);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (messagesContainerRef.current && messagesEndRef.current) {
+      const container = messagesContainerRef.current;
+      const element = messagesEndRef.current;
+
+      // Scroll to the bottom of the messages container with a small offset
+      container.scrollTop = container.scrollHeight - 50;
+    }
   };
 
   useEffect(() => {
-    scrollToBottom();
+    // Only scroll when there are messages (not on initial page load)
+    if (messages.length > 1) {
+      scrollToBottom();
+    }
   }, [messages]);
 
   const handleSendMessage = async () => {
@@ -52,7 +63,7 @@ const AiChat = () => {
       );
 
       const data = await response.json();
-      console.log(data);
+
       // Simulate AI response based on the dummy data
       const aiResponse = {
         id: Date.now() + 1,
@@ -62,6 +73,7 @@ const AiChat = () => {
       };
 
       setMessages((prev) => [...prev, aiResponse]);
+      setTimeout(() => inputRef.current.focus(), 100);
     } catch (error) {
       const errorResponse = {
         id: Date.now() + 1,
@@ -93,7 +105,10 @@ const AiChat = () => {
       </div>
 
       {/* Messages Container */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
+      <div
+        ref={messagesContainerRef}
+        className="flex-1 overflow-y-auto p-4 space-y-4"
+      >
         {messages.map((message) => (
           <div
             key={message.id}
@@ -150,6 +165,7 @@ const AiChat = () => {
       <div className="border-t border-gray-200 p-4">
         <div className="flex space-x-2">
           <input
+            ref={inputRef}
             type="text"
             value={inputMessage}
             onChange={(e) => setInputMessage(e.target.value)}
