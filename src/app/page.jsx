@@ -4,9 +4,10 @@ import Challenges from "./_components/Challenges";
 import Gallery from "./_components/Gallery";
 import Nisar from "./_components/Nisar";
 import Sample from "./_components/Sample";
-import CTA from "./_components/CTA";
 import Footer from "./_components/Footer";
 import Chatbot from "./_components/Chatbot";
+import LiveData from "./_components/LiveData";
+import AiChat from "./_components/AiChat";
 
 export default function Home() {
   return (
@@ -21,13 +22,13 @@ export default function Home() {
               <Gallery />
               <Nisar />
               <Sample />
-              <CTA />
+              <LiveData />
+              <AiChat />
             </div>
           </main>
         </div>
         <Footer />
       </div>
-      <Chatbot />
     </>
   );
 }
